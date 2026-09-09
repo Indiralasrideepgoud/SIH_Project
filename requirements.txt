@@ -1,0 +1,29 @@
+# Audio Anti-Spoofing MVP - Dependencies
+# Core Deep Learning
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Audio Signal Processing
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# API Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+
+# HTTP Client (for testing)
+httpx>=0.24.0
+
+# Visualization (optional, for evaluation plots)
+matplotlib>=3.7.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
